@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubblePick1", "Assembly-CSharp.csproj", "{3EB7F589-7C37-3634-2356-37E892560F53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubblePick1", "Assembly-CSharp-Editor.csproj", "{2FA9D474-AB24-193C-BE06-DB68CD3B4D37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EB7F589-7C37-3634-2356-37E892560F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB7F589-7C37-3634-2356-37E892560F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB7F589-7C37-3634-2356-37E892560F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB7F589-7C37-3634-2356-37E892560F53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA9D474-AB24-193C-BE06-DB68CD3B4D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA9D474-AB24-193C-BE06-DB68CD3B4D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA9D474-AB24-193C-BE06-DB68CD3B4D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA9D474-AB24-193C-BE06-DB68CD3B4D37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

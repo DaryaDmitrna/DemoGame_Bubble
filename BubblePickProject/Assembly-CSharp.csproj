@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{3EB7F589-7C37-3634-2356-37E892560F53}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_7;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\BigDrop.cs" />
+     <Compile Include="Assets\Scripts\Button1.cs" />
+     <Compile Include="Assets\Scripts\FileReader.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel1.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel10.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel11.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel12.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel13.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel14.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel15.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel16.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel17.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel18.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel19.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel2.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel20.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel3.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel4.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel5.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel6.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel7.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel8.cs" />
+     <Compile Include="Assets\Scripts\GameManLevel9.cs" />
+     <Compile Include="Assets\Scripts\ImageDownloader.cs" />
+     <Compile Include="Assets\Scripts\LoadLevels.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\PopulateGrid.cs" />
+     <Compile Include="Assets\Scripts\Save.cs" />
+     <Compile Include="Assets\Scripts\SaveData.cs" />
+     <Compile Include="Assets\Scripts\SceneChanger.cs" />
+     <Compile Include="Assets\Scripts\SceneMakerAreYouSure.cs" />
+     <Compile Include="Assets\Scripts\SceneMakerDifficult.cs" />
+     <Compile Include="Assets\Scripts\SceneMakerNoMoney.cs" />
+     <Compile Include="Assets\Scripts\SceneMakerNotAvailable.cs" />
+     <Compile Include="Assets\Scripts\SceneMakerNotEnough.cs" />
+     <Compile Include="Assets\Scripts\SceneMakerPause.cs" />
+     <Compile Include="Assets\Scripts\SceneMakerSetting.cs" />
+     <Compile Include="Assets\Scripts\SceneMakerShop.cs" />
+     <Compile Include="Assets\Scripts\SceneMakerSkin.cs" />
+     <Compile Include="Assets\Scripts\Skin.cs" />
+     <Compile Include="Assets\Scripts\SmallDrop.cs" />
+     <Compile Include="Assets\Scripts\SpawnerRandom.cs" />
+     <Compile Include="Assets\Scripts\TextMaker.cs" />
+     <Compile Include="Assets\Scripts\TextMaker1.cs" />
+     <Compile Include="Assets\Scripts\TextMaker2.cs" />
+     <Compile Include="Assets\Scripts\YandexReward.cs" />
+     <Compile Include="Assets\YandexMobileAds\Banner.cs" />
+     <Compile Include="Assets\YandexMobileAds\Base\AdFailureEventArgs.cs" />
+     <Compile Include="Assets\YandexMobileAds\Base\AdPosition.cs" />
+     <Compile Include="Assets\YandexMobileAds\Base\AdRequest.cs" />
+     <Compile Include="Assets\YandexMobileAds\Base\AdRequestCreator.cs" />
+     <Compile Include="Assets\YandexMobileAds\Base\AdSize.cs" />
+     <Compile Include="Assets\YandexMobileAds\Base\Gender.cs" />
+     <Compile Include="Assets\YandexMobileAds\Base\ImpressionData.cs" />
+     <Compile Include="Assets\YandexMobileAds\Base\Location.cs" />
+     <Compile Include="Assets\YandexMobileAds\Base\MobileAdsPackageInfo.cs" />
+     <Compile Include="Assets\YandexMobileAds\Base\Reward.cs" />
+     <Compile Include="Assets\YandexMobileAds\Common\DummyBannerClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Common\DummyInterstitialClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Common\DummyMobileAdsClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Common\DummyRewardedAdClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Common\DummyScreenClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Common\IBannerClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Common\IInterstitialClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Common\IMobileAdsClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Common\IRewardedAdClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Common\IScreenClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Interstitial.cs" />
+     <Compile Include="Assets\YandexMobileAds\MobileAds.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\Android\AdSizeUtils.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\Android\BannerClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\Android\InterstitialClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\Android\MobileAdsClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\Android\RewardedAdClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\Android\ScreenClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\Android\Utils.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\YandexMobileAdsClientFactory.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\AdRequestBridge.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\AdRequestClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\AdSizeBridge.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\AdSizeClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\BannerBridge.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\BannerClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\DictionaryBridge.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\DictionaryClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\InterstitialBridge.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\InterstitialClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\ListBridge.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\ListClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\LocationBridge.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\LocationClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\MobileAdsBridge.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\MobileAdsClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\MonoPInvokeCallbackAttribute.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\ObjectBridge.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\RewardedAdBridge.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\RewardedAdClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\ScreenBridge.cs" />
+     <Compile Include="Assets\YandexMobileAds\Platforms\iOS\ScreenClient.cs" />
+     <Compile Include="Assets\YandexMobileAds\RewardedAd.cs" />
+     <Compile Include="Assets\YandexMobileAds\ScreenUtils.cs" />
+     <None Include="Assets\YandexMobileAds\Editor\YandexMobileadsDependencies.xml" />
+     <None Include="Assets\Plugins\Android\YandexMobileAdsPlugin\AndroidManifest.xml" />
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
